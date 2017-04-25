@@ -116,6 +116,7 @@ h4 {
 
 #three {
   display: block;
+  background-color: #D1D0CE;
 }
 
 #three h1{
@@ -137,4 +138,9 @@ h4 {
 
 #three img {
   width: 100%;
+}
+
+#content{
+  height: 280px;
+  margin: 16px;
 }
