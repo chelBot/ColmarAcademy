@@ -108,7 +108,7 @@ nav li {
 
 }
 
-h4 {
+ #two h4 {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -159,4 +159,16 @@ h4 {
   padding: .5rem;
   font-size: 1rem;
   color: #8D9294;
+}
+/*4th section*/
+
+#four h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+#four video {
+  width: 100%;
 }
