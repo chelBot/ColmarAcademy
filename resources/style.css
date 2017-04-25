@@ -1,6 +1,7 @@
 body {
   font-size: 16px;
   font-family: Helvetica, sans;
+  color: #3F4345;
 }
 
 div {
@@ -146,16 +147,16 @@ h4 {
   margin: 16px;
   background-color: white;
   font-size: 1rem;
-  color: lightGray;
+
 }
 
 #content h3 {
   font-size: 1.5rem;
-  color: darkGray;
   padding: .5rem;
 }
 
 #content h4, p {
   padding: .5rem;
   font-size: 1rem;
+  color: #8D9294;
 }
