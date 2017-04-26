@@ -99,7 +99,7 @@ nav li {
 #two .right {
   width: 423px;
   justify-content:  center;
-  flex-direction: row;
+  
 }
 
 #two .right img {
@@ -113,6 +113,11 @@ nav li {
   font-weight: bold;
 }
 
+#info {
+  float: right;
+  flex-wrap: wrap;
+
+}
 /*3rd section*/
 
 #three {
@@ -195,4 +200,9 @@ nav li {
 
 #four #top  {
   margin: 0;
+  display: flex;
 }
+ #four #bottom {
+   margin: 0;
+   display: flex;
+ }
