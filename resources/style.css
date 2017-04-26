@@ -161,14 +161,38 @@ nav li {
   color: #8D9294;
 }
 /*4th section*/
-
+#four {
+  display: block;
+}
 #four h1{
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  display: block;
+  padding-bottom: 32px;
+}
+
+#thesisinfo {
+  display: flex;
 }
 
 #four video {
   width: 100%;
+}
+
+#four .right {
+  width: 423px;
+  height: auto;
+  flex-direction: column;
+
+}
+
+#four .right img {
+  height: 136px;
+  width: auto;
+  display: inline-flex;
+  padding: 1rem;
+}
+
+#four #top  {
+  margin: 0;
 }
