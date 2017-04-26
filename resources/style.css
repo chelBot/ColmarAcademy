@@ -236,3 +236,14 @@ nav li {
   font-weight: bold;
   text-align: left;
 }
+
+footer {
+  font-size: .8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+ footer li {
+   display: inline;
+   padding: .5rem;
+ }
