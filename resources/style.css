@@ -5,7 +5,7 @@ body {
 }
 
 div {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .container {
@@ -35,6 +35,7 @@ nav li {
 }
  #logo {
    align-content: center;
+   display: inline-flex;
  }
 
  #name {
@@ -99,7 +100,7 @@ nav li {
 #two .right {
   width: 423px;
   justify-content:  center;
-  
+
 }
 
 #two .right img {
@@ -114,10 +115,31 @@ nav li {
 }
 
 #info {
-  float: right;
-  flex-wrap: wrap;
-
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
 }
+
+
+.block {
+  display: block;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  font-size: .9rem;
+}
+
+.block h4 {
+  padding-bottom: .5rem;
+}
+  #link {
+   padding: .5rem;
+   margin-top: .5rem;
+   color: #269DCD;
+ }
+ .guest {
+   background-color: #C0C0C0;
+ }
+
 /*3rd section*/
 
 #three {
@@ -182,6 +204,7 @@ nav li {
 
 #four video {
   width: 100%;
+  padding-bottom: 24px;
 }
 
 #four .right {
@@ -205,4 +228,11 @@ nav li {
  #four #bottom {
    margin: 0;
    display: flex;
+
  }
+
+#four h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
