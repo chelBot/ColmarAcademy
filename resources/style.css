@@ -4,6 +4,10 @@ body {
   color: #3F4345;
 }
 
+.mobile {
+  display: none;
+}
+
 div {
   /*border: 2px solid red;*/
 }
@@ -20,6 +24,7 @@ header {
   flex-direction: row;
 
 }
+
 
 .head {
     padding: auto 24px;
@@ -247,3 +252,91 @@ footer {
    display: inline;
    padding: .5rem;
  }
+
+@media only screen and (max-width: 470px) {
+  body {
+    display: block;
+  }
+  #one, #two, #three, #four, #norm, #name,#logo {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 16px;
+    font-size: 1.25rem;
+  }
+
+#mobile {
+  height: 64px;
+  text-align: center;
+  margin: auto;
+  padding: 16px;
+
+}
+
+#mobile img {
+  padding: 0 16px;
+}
+.mobile-head {
+  height: 180px;
+  background-color: #808080;
+}
+
+.mobile h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 32px 16px 32px 0;
+}
+ .mobile #button {
+   font-size: 1rem;
+   margin-top: 24px;
+   margin-bottom: 32px;
+   background-color: #808080;
+ }
+
+.mobile h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.mobile img {
+
+  width: 100%;
+  height: 190px;
+}
+
+#five {
+  background-color: #D3D3D3;
+}
+
+.mobile-text {
+  padding: 16px;
+  background-color: #D3D3D3;
+  margin-bottom: 8px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+#six {
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+#six h1 {
+  padding: 0;
+}
+
+video {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.mobile .block{
+  line-height: 1.8;
+}
